@@ -10,9 +10,6 @@ def generate_list(b, i=0):
     return b
 
 
-# a = [-1, 48, 50, 14, 0, -5, -7, -6, 45, 0, 0, 1, 2, 3]
-
-
 def search_min_element_index(lst, min_index=-1, i=0):
     if i >= len(lst):
         return min_index
