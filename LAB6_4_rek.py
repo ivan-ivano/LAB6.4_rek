@@ -62,7 +62,5 @@ if __name__ == '__main__':
     a = generate_list([])
     print(a)
     print('Мінімальний елемент: ', a[search_min_element_index(a)])
-    print(last_positive_index(a))
-    print(first_positive_index(a))
     print("Сума: ", sum_between(a, first_positive_index(a), last_positive_index(a)))
     print(replace_nulls(a))
